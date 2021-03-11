@@ -1,26 +1,8 @@
-# CO2 Ampel
-Die CO2 Konzentration in der Luft gilt als guter Indikator für die Raumluftqualität in Innenräumen. 
-
-## Funktion
-* Akkulaufzeit ca. 20Stunden
-* Ampelfarbe entsprechend der Raumluftqualität
-* Bei überschreiten von 1000ppm akustisches Signal (alle 5 Minuten) Blitzlicht (alle 5 Sekunden)
-
-Hintergrundinformationen:
-
-Außenluft hat üblicherweise eine CO2 Konzentration von 350 bis 450 ppm. 
-
-**Richtwerte für Raumluftqualität:**
-
-| kleiner 800 ppm | gut |
-| 800-1000 ppm | mittel |
-| größer 1000 ppm | mäßig |
-
-
-## Aufbau
+# Aufbau der CO2 Ampel
 Die CO2 Ampel besteht aus relativ wenigen Komponenten.
 
 ![CO2 Ampel - Blockschaltbild](https://github.com/sfz-region-freiburg/co2-Ampel/blob/main/images/blockdiagram.png)
+
 ![CO2 Ampel - Bild](https://github.com/sfz-region-freiburg/co2-Ampel/blob/main/images/komponenten.png)
 
 
@@ -32,11 +14,14 @@ Der Arduino Nano ist sozusagen die Schaltzentrale der CO2 Ampel, er bekommt vom 
 
 ### Display
 Bei dem Display handelt es sich um ein sogenanntes Punktmatrix-Display mit einer Auflösung von 128 Punkten horizontal und 32 Punkten vertikal. Jeder dieser Punkte kann nun ein oder ausgeschalten werden. Um auf diesem Display nun Text oder Zahlen anzuzeigen wird eine Bibliothek verwendet die aus dem jeweiligen Symbol ein Punktmuster erzeugt. 
+
 ![Display - Hallo](https://github.com/sfz-region-freiburg/co2-Ampel/blob/main/images/display.png)
+
 Beispiel „Hallo!“
 
 ### RGB-LED
 Bei der RGB-LED steht RGB für die drei Farben Rot, Grün und Blau. Es sind also drei LEDs in einem Gehäuse. Dies hat den Vorteil, dass man nicht nur die drei Farben hat, sondern auch diese drei Farben mischen kann. So erhält man zum Beispiel, wenn die Rote und die Grüne LED an sind die Farbe Gelb. 
+
 ![Display - Hallo](https://github.com/sfz-region-freiburg/co2-Ampel/blob/main/images/rgb.png)
 
 ### Piezo Buzzer
@@ -45,11 +30,11 @@ Ein Piezo Buzzer ist eine Art Lautsprecher. Durch Anlegen einer elektrischen Spa
 ### FLASH LEDs
 Die beiden Flash LEDs sind sehr helle LEDs die rot leuchten. Sie werden immer nur kurz angeschaltet und erzeugen somit einen „Blitz“. Auch sie sollen auf die Überschreitung des Grenzwertes aufmerksam machen.
 
-## Schaltplan
+# Schaltplan
 ![CO2 Ampel - Schaltplan](https://github.com/sfz-region-freiburg/co2-Ampel/blob/main/images/schaltplan.png)
 
 
-## Komponentenliste
+# Komponentenliste
 | Bauteil 						| Beschreibung | Bezeichnung | Anzahl | Bestelllink | Preis (ca) |
 | ---- | ---- | ---- | ---- | ---- | ---- |
 | CO2 Sensor 					| | IC1 		| 1 | | |
@@ -68,4 +53,4 @@ Die beiden Flash LEDs sind sehr helle LEDs die rot leuchten. Sie werden immer nu
 
 
 # Gefördert durch:
-![Gisela und Erwin Sick Stiftung](https://sfz-region-freiburg.de/wp-content/uploads/2020/02/sfz-unterstuetzer-sick-stiftung.jpg)
+[![Gisela und Erwin Sick Stiftung](https://sfz-region-freiburg.de/wp-content/uploads/2020/02/sfz-unterstuetzer-sick-stiftung.jpg)](https://www.sick-stiftung.org/)
