@@ -35,14 +35,15 @@ Die beiden Flash LEDs sind sehr helle LEDs die rot leuchten. Sie werden immer nu
 
 
 ## Komponentenliste
-| Bauteil | Beschreibung | Bezeichnung | Anzahl | Bestelllink | Preis (ca) |
-| CO2 Sensor | | IC1 | 1 | | |
-| Arduino Nano | | IC2 | 1 | | |
-| Display | | IC3 | 1 | | |
-| RGB-LED | | LED3 | 1 | | |
-| Piezo Buzzer | | SG1 | 1 | | |
-| FLASH LEDs | | LED1, LED2 | 2 | | |
-| Vorwiderstand 120hm | | R3,R4,R5|3| | |
-| Vorwiderstand 300Ohm | | R6,R7|2| | |
-| I2C Pullup Widerstand 3300Ohm | | R1,R2 | 2 | | |
+| Bauteil 						| Beschreibung | Bezeichnung | Anzahl | Bestelllink | Preis (ca) |
+| ---- | ---- | ---- | ---- | ---- | ---- |
+| CO2 Sensor 					| | IC1 		| 1 | | |
+| Arduino Nano					| | IC2 		| 1 | | |
+| Display 						| | IC3 		| 1 | | |
+| RGB-LED 						| | LED3 		| 1 | | |
+| Piezo Buzzer 					| | SG1 		| 1 | | |
+| FLASH LEDs 					| | LED1, LED2 	| 2 | | |
+| Vorwiderstand 120hm 			| | R3,R4,R5	| 3 | | |
+| Vorwiderstand 300Ohm 			| | R6,R7		| 2 | | |
+| I2C Pullup Widerstand 3300Ohm | | R1,R2 		| 2 | | |
 
