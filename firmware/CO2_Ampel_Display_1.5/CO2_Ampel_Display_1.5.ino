@@ -1,6 +1,6 @@
 /*
   CO2 Ampel
-  By: Sülerforschungszentrum Region Freiburg
+  By: Schülerforschungszentrum Region Freiburg
   Date: October, 2020
   Version: V1.5
 
@@ -8,7 +8,7 @@
   - Reads CO2, humidity and temperature from the Sensirion SCD30 Sensor
   - Display readings on an 128x32 OLED Display
   - Generates an alarm (tone and LED flash) when threashold is excceded
-  -
+
 
 
 
@@ -162,15 +162,6 @@ void setup()
   if (digitalRead(IN1) == LOW && digitalRead(IN2) == HIGH) {
     calibration(calibConcentration);
   }
-
-
-  //
-  //
-
-
-
-
-
 
 
 
@@ -346,7 +337,7 @@ void alarm(float co2Avg) {
   }
 }
 
-
+//Calibrate the SCD30 to a given concentration, default is 450 ppm (approximately outside air)
 bool calibration(unsigned int co2concentration) {
 
   while ( digitalRead(IN1) == LOW &&  digitalRead(IN2) == HIGH) {
