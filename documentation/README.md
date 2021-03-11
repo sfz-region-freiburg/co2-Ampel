@@ -7,12 +7,14 @@ Die CO2 Konzentration in der Luft gilt als guter Indikator für die Raumluftqual
 * Bei überschreiten von 1000ppm akustisches Signal (alle 5 Minuten) Blitzlicht (alle 5 Sekunden)
 
 Hintergrundinformationen:
+
 Außenluft hat üblicherweise eine CO2 Konzentration von 350 bis 450 ppm. 
+
 **Richtwerte für Raumluftqualität:**
-kleiner 800 ppm | gut
-800-1000 ppm | mittel
-größer 1000 ppm | mäßig 
-Spätestens jetzt sollte gelüftet werden.
+
+| kleiner 800 ppm | gut |
+| 800-1000 ppm | mittel |
+| größer 1000 ppm | mäßig |
 
 
 ## Aufbau
@@ -35,7 +37,7 @@ Beispiel „Hallo!“
 
 ### RGB-LED
 Bei der RGB-LED steht RGB für die drei Farben Rot, Grün und Blau. Es sind also drei LEDs in einem Gehäuse. Dies hat den Vorteil, dass man nicht nur die drei Farben hat, sondern auch diese drei Farben mischen kann. So erhält man zum Beispiel, wenn die Rote und die Grüne LED an sind die Farbe Gelb. 
-![Display - Hallo](https://github.com/sfz-region-freiburg/co2-Ampel/blob/main/images/RGB.png)
+![Display - Hallo](https://github.com/sfz-region-freiburg/co2-Ampel/blob/main/images/rgb.png)
 
 ### Piezo Buzzer
 Ein Piezo Buzzer ist eine Art Lautsprecher. Durch Anlegen einer elektrischen Spannung schwingt der Piezo Kristall und bewegt so eine Membran, die diese mechanische Bewegung in Schallwellen umwandelt. Er dient als akustisches Signal bei Überschreiten des eingestellten Grenzwertes. Man muss also nicht immer auf die CO2 Ampel schauen.
