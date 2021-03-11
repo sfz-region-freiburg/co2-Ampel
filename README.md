@@ -31,11 +31,11 @@ Ein Piezo Buzzer ist eine Art Lautsprecher. Durch Anlegen einer elektrischen Spa
 Die beiden Flash LEDs sind sehr helle LEDs die rot leuchten. Sie werden immer nur kurz angeschaltet und erzeugen somit einen „Blitz“. Auch sie sollen auf die Überschreitung des Grenzwertes aufmerksam machen.
 
 ## Schaltplan
-![CO2 Ampel - Schaltplan](https://github.com/sfz-region-freiburg/co2-Ampel/blob/main/elektronik/schaltplan.pdf)
+![CO2 Ampel - Schaltplan](https://github.com/sfz-region-freiburg/co2-Ampel/blob/main/images/schaltplan.png)
 
 
 ## Komponentenliste
-| Bauteil |Beschreibung|Bezeichnung|Anzahl|Bestelllink|Preis (ca)|
+| Bauteil | Beschreibung | Bezeichnung | Anzahl | Bestelllink | Preis (ca) |
 | CO2 Sensor | | IC1 | 1 | | |
 | Arduino Nano | | IC2 | 1 | | |
 | Display | | IC3 | 1 | | |
