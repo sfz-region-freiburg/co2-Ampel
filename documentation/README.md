@@ -53,4 +53,4 @@ Die beiden Flash LEDs sind sehr helle LEDs die rot leuchten. Sie werden immer nu
 
 
 # Gefördert durch:
-[![Gisela und Erwin Sick Stiftung](https://sfz-region-freiburg.de/wp-content/uploads/2020/02/sfz-unterstuetzer-sick-stiftung.jpg)](https://www.sick-stiftung.org/)
+[![Gisela und Erwin Sick Stiftung](https://sfz-region-freiburg.de/wp-content/uploads/2020/02/sfz-unterstuetzer-sick-stiftung.jpg)](https://www.sick-stiftung.org/ges/?target=_blank)
