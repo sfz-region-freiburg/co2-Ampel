@@ -46,8 +46,8 @@ Die beiden Flash LEDs sind sehr helle LEDs die rot leuchten. Sie werden immer nu
 | Vorwiderstand 120hm 			| | R3,R4,R5	| 3 | | |
 | Vorwiderstand 300Ohm 			| | R6,R7		| 2 | | |
 | I2C Pullup Widerstand 3300Ohm | | R1,R2 		| 2 | | |
-| Gehäuse 						| | 			| 1 | | |
-| Powerbank 					| |  			| 1 | | |
+| Gehäuse 						| | Strapubox 2515KL			| 1 | | |
+| Powerbank mit Schalter 2200mAh | | 9,5 x 2,2 x 2,1 mm			| 1 | | |
 
 
 
